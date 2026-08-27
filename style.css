@@ -196,7 +196,9 @@ footer{background:#041f14;color:#d8e8df;padding:55px 0 22px}
     display: inline-block;
     animation: noticeMove 15s linear infinite;
 }
-
+.mosque-notice:hover span {
+    animation-play-state: paused;
+}
 @keyframes noticeMove {
     from {
         transform: translateX(100%);
