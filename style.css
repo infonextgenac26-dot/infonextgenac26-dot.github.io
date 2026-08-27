@@ -249,3 +249,10 @@ footer{background:#041f14;color:#d8e8df;padding:55px 0 22px}
     display: inline-block;
     margin-top: 18px;
 }
+.home-donation-qr {
+    width: 180px !important;
+    height: 180px !important;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
+}
