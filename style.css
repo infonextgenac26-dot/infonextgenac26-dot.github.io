@@ -174,3 +174,34 @@ footer{background:#041f14;color:#d8e8df;padding:55px 0 22px}
         grid-template-columns: 1fr;
     }
 }
+
+/* MOSQUE NOTICE BAR */
+.mosque-notice {
+    width: 100%;
+    background: #075b31;
+    color: white;
+    padding: 12px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.mosque-notice strong {
+    color: #ffd966;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+
+.mosque-notice span {
+    display: inline-block;
+    animation: noticeMove 15s linear infinite;
+}
+
+@keyframes noticeMove {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
