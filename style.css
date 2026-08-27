@@ -244,3 +244,8 @@ footer{background:#041f14;color:#d8e8df;padding:55px 0 22px}
         transform: translateX(-100%);
     }
 }
+
+.hero-donate {
+    display: inline-block;
+    margin-top: 18px;
+}
