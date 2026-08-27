@@ -139,3 +139,11 @@ footer{background:#041f14;color:#d8e8df;padding:55px 0 22px}
   border: 0;
   display: block;
 }
+.donation-qr {
+    width: 260px;
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    object-fit: contain;
+}
