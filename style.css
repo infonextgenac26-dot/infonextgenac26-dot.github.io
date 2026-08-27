@@ -147,3 +147,30 @@ footer{background:#041f14;color:#d8e8df;padding:55px 0 22px}
     margin: 25px auto;
     object-fit: contain;
 }
+/* Donation cards horizontal */
+.donation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    align-items: stretch;
+}
+
+.donation-card {
+    text-align: center;
+}
+
+.donation-qr {
+    width: 260px;
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .donation-grid {
+        grid-template-columns: 1fr;
+    }
+}
